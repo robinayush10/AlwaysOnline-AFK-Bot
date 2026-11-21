@@ -1,13 +1,13 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Technoblade",
-    "password": "",
+    "username": "AlwaysOnline",
+    "password": "nigg3rp1",
     "type": "offline"
   },
   "server": {
-    "ip": "slobos13.aternos.me",
-    "port": 29195,
+    "ip": "valenvanilla.mcsh.gg",
+    "port": 25565,
     "version": "1.21.1"
   },
   "position": {
@@ -30,9 +30,9 @@
       "repeat": true,
       "repeat-delay": 500,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "/login nigg3rp1",
+        "GTA VI Released",
+        "YouTube/@robinayush"
       ]
     },
     "chat-log": true,
@@ -46,14 +46,14 @@
     }
   },
   "movement": {
-    "enabled": true,
+    "enabled": false,
     "circle-walk": {
       "enabled": true,
       "radius": 4,
       "speed": 3000
     },
     "look-around": {
-      "enabled": true,
+      "enabled": false,
       "interval": 5000
     },
     "random-jump": {
